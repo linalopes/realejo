@@ -1876,7 +1876,7 @@ b, strong {
   width: 100%;
 }
 
-/* Call to Action 4 */
+/* Call to Action 1 */
 .call_to_action_1 {
   background: #141414 url(../i/expografia.png) no-repeat 50% 50%;
   background-size: cover;
@@ -1900,15 +1900,39 @@ b, strong {
   }
 }
 
+/* Call to Action 3 */
+.call_to_action_3 {
+  background: #141414 url(../i/debate.png) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.25), (-o-min-device-pixel-ratio: 5/4), (min-resolution: 120dpi) {
+  .call_to_action_3 {
+    background-image: url(../i/debate.png);
+  }
+}
+
+/* Call to Action 4 */
+.call_to_action_4 {
+  background: #141414 url(../i/performance.png) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.25), (-o-min-device-pixel-ratio: 5/4), (min-resolution: 120dpi) {
+  .call_to_action_4 {
+    background-image: url(../i/performance.png);
+  }
+}
+
 /* Call to Action 5 */
 .call_to_action_5 {
-  background: #141414 url(../i/call_to_action_5_bg.jpg) no-repeat 50% 50%;
+  background: #141414 url(../i/catalogo.png) no-repeat 50% 50%;
   background-size: cover;
 }
 
 @media (-webkit-min-device-pixel-ratio: 1.25), (-o-min-device-pixel-ratio: 5/4), (min-resolution: 120dpi) {
   .call_to_action_5 {
-    background-image: url(../i/call_to_action_5_bg_2x.jpg);
+    background-image: url(../i/catalogo.png);
   }
 }
 
